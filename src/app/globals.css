@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  /* 確定配色 (引継ぎ§6.1: Apple Intelligence風ライト基調) */
+  --color-ice: #eef4ff; /* アイス (grill-meカード・吹き出し等) */
+  --color-charcoal: #111111; /* 文字 (チャコールブラック) */
+  --color-hairline: #e5e5ea; /* 境界線 (銀灰色) */
+  --color-pane-bg: #f5f5f7; /* 全体背景 */
+  --color-action: #007aff; /* メイン操作 */
+  --color-ink-soft: #6e6e73; /* 補助文字・線画アイコン */
+  --color-ink-faint: #a8a8ad; /* プレースホルダー等の淡文字 */
+  /* キャラクターのアクセント (小丸のみに使用) */
+  --color-orange-brand: #ff8c00; /* オランジェ */
+  --color-gelb-brand: #e6b400; /* ゲルプ (§6.1確定値) */
+
+  /* タイポ4段 (§6.1: 15/13/12/10.5px) */
+  --text-t1: 15px;
+  --text-t2: 13px;
+  --text-t3: 12px;
+  --text-t4: 10.5px;
+
+  /* 角丸3段 (§6.1: 6/10/14) */
+  --radius-r1: 6px;
+  --radius-r2: 10px;
+  --radius-r3: 14px;
+}
+
+body {
+  font-family: var(--font-geist-sans), "Hiragino Kaku Gothic ProN", "Yu Gothic",
+    Meiryo, sans-serif;
+}
