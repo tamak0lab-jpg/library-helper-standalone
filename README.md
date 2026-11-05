@@ -4,6 +4,9 @@ grill-me(AI対話)で今の自分に合う本を探し、読みながらAI司書
 
 AIには **あなた自身のGemini APIキー**(BYOK: Bring Your Own Key)を使います。
 
+> **カスタマイズせず使うだけなら、こちらのURL版を利用できます**: https://library-helper-standalone.vercel.app/
+> インストール不要で、すぐに使い始められます(下記のGemini APIキー設定だけ行ってください)。
+
 ## 主な機能
 
 - **grill-me**: AI司書(オランジェ/ゲルプ)との対話から、悩みや好みに合わせて3冊を選書
@@ -38,8 +41,10 @@ AIには **あなた自身のGemini APIキー**(BYOK: Bring Your Own Key)を使�
 
 ## ローカルで動かす場合
 
+事前にNode.jsとnpmが必要です(未インストールの場合は [nodejs.org](https://nodejs.org/) から導入してください)。
+
 ```bash
-git clone <このリポジトリのURL>
+git clone https://github.com/tamak0lab-jpg/library-helper-standalone.git
 cd library-helper-standalone
 npm install
 npm run dev
